@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.myapplication.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.myapplication.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_RestHours"
+        android:name="com.example.myapplication.ui.resthours.RestHoursFragment"
+        android:label="@string/menu_RestHours"
+        tools:layout="@layout/fragment_resthours" />
+    <fragment
+        android:id="@+id/nav_viewMenu"
+        android:name="com.example.myapplication.ui.viewmenu.viewMenuFragment"
+        android:label="@string/menu_viewMenu"
+        tools:layout="@layout/fragment_viewmenu" />
+    <fragment
+        android:id="@+id/nav_QR"
+        android:name="com.example.myapplication.ui.qr.QRFragment"
+        android:label="@string/menu_QR"
+        tools:layout="@layout/fragment_qr" />
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.myapplication.ui.chat.chatFragment"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_chat" />
+
+</navigation>
